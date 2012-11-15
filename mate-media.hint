@@ -1,5 +1,0 @@
-category: MATE
-requires: gstreamer0.10-plugins-base gstreamer0.10-plugins-good gstreamer0.10-plugins-mateconf gstreamer0.10-plugins-pulse libatk1.0_0 libcairo2 libcanberra0 libcanberra-gtk0 libglib2.0_0 libgstinterfaces0.10_0 libgstreamer0.10_0 libgtk2.0_0 libintl8 libmateconf2_4 libmate-media-profiles0 libpango1.0_0 libpulse0 libpulse-mainloop-glib0 libunique1.0_0 libxml2 mate-conf
-sdesc: "MATE multimedia utilities"
-ldesc: "MATE is a fork of the GNOME 2 desktop. It provides an intuitive
-and attractive desktop to Linux users using traditional metaphors."

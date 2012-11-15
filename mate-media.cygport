@@ -1,0 +1,17 @@
+inherit mate
+
+NAME="mate-media"
+VERSION=1.4.0
+RELEASE=1
+CATEGORY="MATE"
+SUMMARY="MATE multimedia utilities"
+DESCRIPTION="MATE is a fork of the GNOME 2 desktop. It provides an intuitive
+and attractive desktop to Linux users using traditional metaphors."
+
+PKG_NAMES="${NAME} libmate-media-profiles0 libmate-media-profiles-devel"
+mate_media_REQUIRES="gstreamer0.10-plugins-base gstreamer0.10-plugins-good gstreamer0.10-plugins-mateconf gstreamer0.10-plugins-pulse"
+mate_media_CONTENTS="--exclude=glade3 etc/ usr/bin/*.exe usr/share/"
+libmate_media_profiles0_SUMMARY="MATE multimedia profiles library (runtime)"
+libmate_media_profiles0_CONTENTS="usr/bin/cygmate-media-profiles-0.dll"
+libmate_media_profiles_devel_SUMMARY="MATE multimedia profiles library (development)"
+libmate_media_profiles_devel_CONTENTS="usr/include/ usr/lib/ usr/share/glade3/"
